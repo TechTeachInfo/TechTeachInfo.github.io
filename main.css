@@ -36,3 +36,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+li {
+  margin-bottom: 5px;
+}
