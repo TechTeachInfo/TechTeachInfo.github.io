@@ -32,7 +32,6 @@ body {
     padding-left: 8%;
 }
 
-
 .brand {
     text-align: left;
     padding-left: 1rem;
@@ -64,6 +63,7 @@ nav {
     text-align: left;
     padding-left: 20%;
     padding-right: 20%;
+    padding-bottom: 2%;
 }
 
 b {
@@ -94,7 +94,7 @@ a:hover {
 }
 
 #programma h3 {
-    color: black;
+    color: white;
     font-size: 1.8rem;
     text-align: center;
     padding: 2% 0;

@@ -364,7 +364,7 @@
     /* tabs */
     #programma .nav-pills a {
         background-color: white;
-        color: black;
+        color: #2e1180;
         margin: 5% 15%;
         width: auto;
         cursor: pointer;
@@ -589,7 +589,7 @@
     /* tabs */
     #programma .nav-pills a {
         background-color: white;
-        color: black;
+        color: #2e1180;
         width: auto;
         cursor: pointer;
         transition: 0.3s;
@@ -831,7 +831,7 @@
     /* tabs */
     #programma .nav-pills a {
         background-color: white;
-        color: black;
+        color: #2e1180;
         width: auto;
         cursor: pointer;
         transition: 0.3s;
