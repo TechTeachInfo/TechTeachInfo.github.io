@@ -1,77 +1,73 @@
 @charset "UTF-8";
 
-
 /* Small devices (landscape phones, 766px and up)*/
-@media (max-width: 766px) { 
-    
-    
-    h1, h2, h3{
+@media (max-width: 766px) {
+
+    h1, h2, h3 {
         padding: 0 0.2rem;
     }
-    
-    /*navigatie*/
-    
-ul li{
-    display: none;
-    }
-    
-.secondNav ul li{
-     display: inline-block; 
-}
-    
-    .hvr-underline-from-center {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(0px) translateZ(0);
-  transform: perspective(0px) translateZ(0);
-  box-shadow: 0 0 0px transparent;
-  position: relative;
-  overflow: hidden;
-}
-    .hvr-underline-from-center:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  bottom: 0;
-  -webkit-transition-property: left, right;
-  transition-property: left, right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
 
-.logo{
-    display: block;
-    margin: auto;
-    width: 30%;
-    padding-top: 2%;
-    }
-    
-    #instagram{
+    /*navigatie*/
+    ul li {
         display: none;
     }
-    
-nav{
-    background-color: #210658;
-    padding-bottom: 10px;
+
+    .secondNav ul li {
+        display: inline-block;
     }
 
-    .social{
-    display: inline-block;
+    .hvr-underline-from-center {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(0px) translateZ(0);
+        transform: perspective(0px) translateZ(0);
+        box-shadow: 0 0 0px transparent;
+        position: relative;
+        overflow: hidden;
     }
-    
-    h1{
+
+    .hvr-underline-from-center:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        -webkit-transition-property: left, right;
+        transition-property: left, right;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+    }
+
+    .logo {
+        display: block;
+        margin: auto;
+        width: 30%;
+        padding-top: 2%;
+    }
+
+    #instagram {
+        display: none;
+    }
+
+    nav {
+        background-color: #210658;
+        padding-bottom: 10px;
+    }
+
+    .social {
+        display: inline-block;
+    }
+
+    h1 {
         font-size: 1rem;
-        color: white; 
+        color: white;
         text-align: center;
         padding-top: 2%;
     }
-    
+
     /*over*/
-    
-    
-    #over h2{
+    #over h2 {
         font-size: 1.3rem;
         display: block;
         text-align: center;
@@ -79,121 +75,117 @@ nav{
         padding-top: 5%;
         width: 70%;
     }
-    
-    
-    #over p{
-    text-align: center;
-       padding: 0 1rem; 
+
+    #over p {
+        text-align: center;
+        padding: 0 1rem;
     }
-    
+
     /* programma */
-    
-    #programma h2{
+    #programma h2 {
         font-size: 1.3rem;
         text-align: center;
     }
-    
-    
-     #programma p{
+
+    #programma p {
         text-align: left;
-        padding: 0 0.5rem; 
+        padding: 0 0.5rem;
     }
-    
-    #programma .nav .nav-pills .nav-justified{
+
+    #programma .nav .nav-pills .nav-justified {
         background-color: white;
     }
-    
-    #programma p{
-    color: white;
-    font-size: 1rem;
-    padding: 1rem;
-    text-align: left;
-}
-    #programma img{
+
+    #programma p {
+        color: white;
+        font-size: 1rem;
+        padding: 1rem;
+        text-align: left;
+    }
+
+    #programma img {
         width: 90%;
         display: block;
         margin: auto;
     }
-    
-    #programma h2, #programma h3{
-        margin:0;
+
+    #programma h2, #programma h3 {
+        margin: 0;
         font-size: 1.3rem;
     }
-    
-    #programma h2, #programma ul{
-    background-color: white;
-    }
-    
-    #programma h2{
-    padding-bottom: 1rem;
-    padding-top: 2rem;
-    color: #84529C;
-    font-weight: bold;
-    }
-    
-    #programma .tab-pane h3:last-child{
-    padding: 1rem;
-    font-size: 1.3rem;
-    border: 3px solid white;
-    text-align: center;
-    margin: auto;
-    width: 75%;
-}
 
-#programma .tab-pane h3:last-child:hover{
-    color: #B1CAE8;
-    background-color: white;
-    border: 3px solid white;
+    #programma h2, #programma ul {
+        background-color: white;
     }
-    
+
+    #programma h2 {
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        color: #84529C;
+        font-weight: bold;
+    }
+
+    #programma .tab-pane h3:last-child {
+        padding: 1rem;
+        font-size: 1.3rem;
+        border: 3px solid white;
+        text-align: center;
+        margin: auto;
+        width: 75%;
+    }
+
+    #programma .tab-pane h3:last-child:hover {
+        color: #B1CAE8;
+        background-color: white;
+        border: 3px solid white;
+    }
+
     /* tabs */
-    
-    #programma .nav-pills a{
-    background-color: white;
-    color: #84529C;
-    margin: 5% 15%;
-    width: auto;
-    cursor: pointer;
-    transition: 0.3s;
-    border: 3px solid #84529C;
-    text-align: center;
-    transition: 0.3s;
-    font-size: 100%;
-    font-weight: bold;
-    }  
-    
-    /* active tab */
-#programma .nav-pills li.active a {
-     background-color: #84529C;
-    color: white;
+    #programma .nav-pills a {
+        background-color: white;
+        color: #84529C;
+        margin: 5% 15%;
+        width: auto;
+        cursor: pointer;
+        transition: 0.3s;
+        border: 3px solid #84529C;
+        text-align: center;
+        transition: 0.3s;
+        font-size: 100%;
+        font-weight: bold;
     }
 
-/* hover tab */
-#programma .nav-pills a:hover {
-     background-color: #84529C;
-    color: white;
+    /* active tab */
+    #programma .nav-pills li.active a {
+        background-color: #84529C;
+        color: white;
     }
-    
+
+    /* hover tab */
+    #programma .nav-pills a:hover {
+        background-color: #84529C;
+        color: white;
+    }
+
     /* waar waneer hoelaat */
-    
-    #info h2{
+    #info h2 {
         color: #84529C;
         text-align: center;
         font-size: 1.5rem;
         margin-top: 80px;
     }
-    
-    #info p{
+
+    #info p {
         font-size: 1rem;
         text-align: center;
         margin: 1rem;
     }
-    
-    #info div div h3{
+
+    #info div div h3 {
         text-align: center;
-        background-color:#84529C;
+        background-color: #84529C;
         color: white;
-        width:30%;
+        width: 30%;
         font-size: 100%;
         margin: auto;
         border-radius: 15px;
@@ -201,117 +193,109 @@ nav{
         margin-bottom: 30px;
         margin-top: 40px;
     }
-    
-        #info div div h3:hover{
+
+    #info div div h3:hover {
         text-decoration: underline;
     }
-   
-    #info h3{
+
+    #info h3 {
         color: #84529C;
         text-align: center;
         font-size: 1.5rem;
     }
-    
+
     /* Team */
-    
     #team h1 {
         margin-top: 0;
         padding: 60px 0 0 0;
         font-size: 2rem;
     }
-    
-    /* sponsers */ 
-    
-    
-    #sponsers img{
+
+    /* sponsers */
+    #sponsers img {
         width: 200px;
     }
-    
-    #sponsers p{
-    font-size: 2rem;
-}
-    
+
+    #sponsers p {
+        font-size: 2rem;
+    }
+
     /* footer */
-    
-    footer h3{
+    footer h3 {
         color: white;
         font-size: 1rem;
-        padding: 1.5rem 1rem; 
+        padding: 1.5rem 1rem;
         text-align: center;
         display: block;
     }
-    
-    footer small{
+
+    footer small {
         color: white;
         display: block;
         font-size: 0.8rem;
-        margin:auto;
+        margin: auto;
     }
-    
-    footer ul li img{
-    display: inline-block;
-    width: 50px; 
-    margin: 0.5rem;
+
+    footer ul li img {
+        display: inline-block;
+        width: 50px;
+        margin: 0.5rem;
     }
-    
-    footer div{
-    text-align: center;
+
+    footer div {
+        text-align: center;
     }
-    
-    footer ul{    
-    list-style-type: none;
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 0;   
+
+    footer ul {
+        list-style-type: none;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 0;
     }
-   
-    video{
+
+    video {
         display: none;
-    }  
-    
+    }
+
 }
 
 /* Medium devices (tablets, 767px and up)*/
-@media (min-width: 767px) { 
-    
-    
-    video{
-    width: 100%;
-    height: 100%;
-}
+@media (min-width: 767px) {
 
-    
-     h1, h2, h3{
+    video {
+        width: 100%;
+        height: 100%;
+    }
+
+    h1, h2, h3 {
         padding: 0 0.2rem;
     }
-    
-      h1{
+
+    h1 {
         font-size: 1.2rem;
-        color: white; 
+        color: white;
         text-align: left;
         padding-top: 2%;
         margin: 0.5rem 0.5rem 0.2rem 2rem;
     }
-    
-  .logo{
-    display: none;
+
+    .logo {
+        display: none;
     }
-    
-    
-    nav{
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    width: 100%;
-    height: 85px;
-    background-color: #210658;
+
+    nav {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        height: 85px;
+        background-color: #210658;
     }
-    
+
     /* over */
-    
-      #over h2{
+    #over h2 {
         font-size: 1.3rem;
         text-align: center;
         padding-top: 3rem;
@@ -319,118 +303,114 @@ nav{
         margin: auto;
         display: block;
     }
-    
-     #over p{
-    text-align: center;
-    padding: 0 1rem;
-    width: 70%;
-    margin: 0 auto;
+
+    #over p {
+        text-align: center;
+        padding: 0 1rem;
+        width: 70%;
+        margin: 0 auto;
     }
-    
-        /* programma */
-    
-    
-     #programma p{
+
+    /* programma */
+    #programma p {
         text-align: left;
-        padding: 0 0.5rem; 
+        padding: 0 0.5rem;
     }
-    
-    #programma .nav .nav-pills .nav-justified{
+
+    #programma .nav .nav-pills .nav-justified {
         background-color: white;
     }
-    
-    #programma p{
-    color: white;
-    font-size: 1rem;
-    padding: 1rem;
-    text-align: left;
-}
-    #programma img{
+
+    #programma p {
+        color: white;
+        font-size: 1rem;
+        padding: 1rem;
+        text-align: left;
+    }
+
+    #programma img {
         width: 40%;
         display: block;
         margin: auto;
     }
-    
-    #programma h2, #programma h3{
-        margin:0;
+
+    #programma h2, #programma h3 {
+        margin: 0;
         font-size: 1.3rem;
     }
-    
-    #programma h2, #programma ul{
-    background-color: white;
+
+    #programma h2, #programma ul {
+        background-color: white;
     }
-    
-    #programma h2{
-    padding-bottom: 1rem;
-    padding-top: 2rem;
-    color: #84529C;
-    font-weight: bold;
-    font-size: 2rem;
+
+    #programma h2 {
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        color: #84529C;
+        font-weight: bold;
+        font-size: 2rem;
         text-align: center;
     }
-    
-    #programma .tab-pane h3:last-child{
-    padding: 1rem;
-    font-size: 1.3rem;
-    border: 3px solid white;
-    text-align: center;
-    margin: auto;
-    width: 33%;
-}
 
-    #programma .tab-pane h3:last-child:hover{
-    color: #B1CAE8;
-    background-color: white;
-    border: 3px solid white;
+    #programma .tab-pane h3:last-child {
+        padding: 1rem;
+        font-size: 1.3rem;
+        border: 3px solid white;
+        text-align: center;
+        margin: auto;
+        width: 33%;
     }
-    
-        /* tabs */
-    
-    #programma .nav-pills a{
-    background-color: white;
-    color: black;
-    margin: 5% 15%;
-    width: auto;
-    cursor: pointer;
-    transition: 0.3s;
-    text-align: center;
-    transition: 0.3s;
-    font-size: 1rem;
-    font-weight: bold;
-    }  
-    
+
+    #programma .tab-pane h3:last-child:hover {
+        color: #B1CAE8;
+        background-color: white;
+        border: 3px solid white;
+    }
+
+    /* tabs */
+    #programma .nav-pills a {
+        background-color: white;
+        color: black;
+        margin: 5% 15%;
+        width: auto;
+        cursor: pointer;
+        transition: 0.3s;
+        text-align: center;
+        transition: 0.3s;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
     /* active tab */
     #programma .nav-pills li.active a {
-    border-bottom: 3px solid #84529C;
-    color: #84529C;
+        border-bottom: 3px solid #84529C;
+        color: #84529C;
     }
 
-/* hover tab */
+    /* hover tab */
     #programma .nav-pills a:hover {
-    color: #84529C;
+        color: #84529C;
     }
-    
-    
+
     /* waar waneer hoelaat */
-    
-    #info h2{
+    #info h2 {
         color: #84529C;
         text-align: center;
         font-size: 1.5rem;
         margin-top: 3rem;
     }
-    
-    #info p{
+
+    #info p {
         font-size: 1rem;
         text-align: center;
         margin: 1rem;
     }
-    
-    #info div div h3{
+
+    #info div div h3 {
         text-align: center;
-        background-color:#84529C;
+        background-color: #84529C;
         color: white;
-        width:20%;
+        width: 20%;
         font-size: 100%;
         margin: auto;
         border-radius: 15px;
@@ -438,240 +418,228 @@ nav{
         margin-bottom: 3rem;
         margin-top: 3rem;
     }
-    
-        #info div div h3:hover{
+
+    #info div div h3:hover {
         text-decoration: underline;
     }
-   
-    #info h3{
+
+    #info h3 {
         color: #84529C;
         text-align: center;
         font-size: 1.5rem;
     }
-    
-        /* Team */
-    
-    
+
+    /* Team */
     #team h1 {
         margin-top: 0;
         padding: 1rem;
         font-size: 2rem;
         text-align: center;
     }
-    
-  
+
     /* footer */
-    
-    .social{
-    display: inline-block;
+    .social {
+        display: inline-block;
     }
-    
-    footer h3{
+
+    footer h3 {
         color: white;
         font-size: 1rem;
-        padding: 1.5rem 1rem; 
+        padding: 1.5rem 1rem;
         text-align: center;
         display: block;
     }
-    
-    
-    footer small{
+
+    footer small {
         color: white;
         display: block;
         font-size: 0.8rem;
-        margin:auto;
+        margin: auto;
     }
-    
-    footer ul li img{
-    display: inline-block;
-    width: 50px; 
-    margin: 0.5rem;
+
+    footer ul li img {
+        display: inline-block;
+        width: 50px;
+        margin: 0.5rem;
     }
-    
-    footer div{
-    text-align: center;
+
+    footer div {
+        text-align: center;
     }
-    
-    footer ul{    
-    list-style-type: none;
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 0;
+
+    footer ul {
+        list-style-type: none;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 0;
     }
-    
-        nav{
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    width: 100%;
-}
-      nav div{
-    text-align: right;
+
+    nav {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+    }
+
+    nav div {
+        text-align: right;
     }
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-    
-    
-   video{
-    width: 70%;
-    height: 100%;
-    margin: auto;
-    display: block;
-}
-        h1{
+
+    video {
+        width: 70%;
+        height: 100%;
+        margin: auto;
+        display: block;
+    }
+
+    h1 {
         font-size: 1.5rem;
-        color: white; 
+        color: white;
         text-align: left;
         margin: 2rem 0.5rem 0.2rem 3rem;
     }
-    
-     h1, h2, h3{
+
+    h1, h2, h3 {
         padding: 0 0.2rem;
     }
-    
-  .logo{
-    display: none;
+
+    .logo {
+        display: none;
     }
-    
-    nav{
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    width: 100%;
-    background-color: #210658;
-    height: 85px;
+
+    nav {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        background-color: #210658;
+        height: 85px;
     }
-  
-    
-    
+
     /* over */
-    
-      #over h2{
+    #over h2 {
         font-size: 1.3rem;
         text-align: center;
         padding-top: 3rem;
         width: 70%;
         margin: auto;
-        display: block;      
+        display: block;
     }
-    
-     #over p{
-    text-align: center;
-    padding: 0 1rem; 
+
+    #over p {
+        text-align: center;
+        padding: 0 1rem;
     }
-    
-        /* programma */
-    
-    
-     #programma p{
+
+    /* programma */
+    #programma p {
         text-align: left;
-        padding: 0 0.5rem; 
+        padding: 0 0.5rem;
     }
-    
-    #programma .nav .nav-pills .nav-justified{
+
+    #programma .nav .nav-pills .nav-justified {
         background-color: white;
     }
-    
-    #programma p{
-    color: white;
-    font-size: 1rem;
-    padding: 1rem;
-    text-align: left;
-}
-    #programma img{
+
+    #programma p {
+        color: white;
+        font-size: 1rem;
+        padding: 1rem;
+        text-align: left;
+    }
+
+    #programma img {
         width: 40%;
         display: block;
         margin: auto;
     }
-    
-    #programma h2, #programma h3{
-        margin:0;
+
+    #programma h2, #programma h3 {
+        margin: 0;
         font-size: 1.3rem;
     }
-    
-    #programma ul{
-    background-color: white;
-    }
-    
-    #programma h2{
-    padding-bottom: 1rem;
-    padding-top: 2rem;
-    color: #84529C;
-    font-weight: bold;
-    font-size: 2rem;
-    text-align: center;
-    }
-    
-    
-    #programma .tab-pane h3:last-child{
-    padding: 1rem;
-    font-size: 1.3rem;
-    border: 3px solid white;
-    text-align: center;
-    margin: auto;
-    width: 33%;
-}
 
-    #programma .tab-pane h3:last-child:hover{
-    color: #B1CAE8;
-    background-color: white;
-    border: 3px solid white;
+    #programma ul {
+        background-color: white;
     }
-    
-        /* tabs */
-    
-    #programma .nav-pills a{
-    background-color: white;
-    color: black;
-    width: auto;
-    cursor: pointer;
-    transition: 0.3s;
-    text-align: center;
-    transition: 0.3s;
-    font-weight: bold;
-    font-size: 1rem;
-        
-    }  
-    
+
+    #programma h2 {
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        color: #84529C;
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #programma .tab-pane h3:last-child {
+        padding: 1rem;
+        font-size: 1.3rem;
+        border: 3px solid white;
+        text-align: center;
+        margin: auto;
+        width: 33%;
+    }
+
+    #programma .tab-pane h3:last-child:hover {
+        color: #B1CAE8;
+        background-color: white;
+        border: 3px solid white;
+    }
+
+    /* tabs */
+    #programma .nav-pills a {
+        background-color: white;
+        color: black;
+        width: auto;
+        cursor: pointer;
+        transition: 0.3s;
+        text-align: center;
+        transition: 0.3s;
+        font-weight: bold;
+        font-size: 1rem;
+
+    }
+
     /* active tab */
-#programma .nav-pills li.active a {
-    border-bottom: 3px solid #84529C;
-    color: #84529C;
+    #programma .nav-pills li.active a {
+        border-bottom: 3px solid #84529C;
+        color: #84529C;
     }
 
-/* hover tab */
-#programma .nav-pills a:hover {
-    color: #84529C;
+    /* hover tab */
+    #programma .nav-pills a:hover {
+        color: #84529C;
     }
-    
-    
+
     /* waar waneer hoelaat */
-    
-    #info h2{
+    #info h2 {
         color: #84529C;
         text-align: center;
         font-size: 1.5rem;
         padding-bottom: 2rem;
     }
-    
-    #info p{
+
+    #info p {
         font-size: 1rem;
         text-align: center;
         margin: 0 auto;
         width: 70%;
         padding-bottom: 1rem;
-        
+
     }
-    
-    #info div div h3{
+
+    #info div div h3 {
         text-align: center;
-        background-color:#84529C;
+        background-color: #84529C;
         color: white;
-        width:20%;
+        width: 20%;
         font-size: 100%;
         margin: auto;
         border-radius: 15px;
@@ -679,248 +647,232 @@ nav{
         margin-bottom: 3rem;
         margin-top: 2rem;
     }
-    
-        #info div div h3:hover{
+
+    #info div div h3:hover {
         text-decoration: underline;
     }
-   
-    #info h3{
+
+    #info h3 {
         color: #84529C;
         text-align: center;
         font-size: 1.5rem;
     }
-    
-        #info ul li{
-        width: 25%;ß
+
+    #info ul li {
+        width: 25%;
     }
-    
-        /* Team */
-    
-    
+
+    /* Team */
     #team h1 {
         margin-top: 0;
         padding: 5px;
         font-size: 2rem;
         text-align: center;
     }
-    
 
     /* footer */
-    
-    footer h3{
+    footer h3 {
         color: white;
         font-size: 1rem;
-        padding: 1.5rem 1rem; 
+        padding: 1.5rem 1rem;
         text-align: center;
         display: block;
     }
-    
-  
-    
-    footer small{
+
+    footer small {
         color: white;
         display: block;
         font-size: 0.8rem;
-        margin:auto;
+        margin: auto;
     }
-    
-    footer ul li img{
-    display: inline-block;
-    width: 50px; 
-    margin: 0.5rem;
+
+    footer ul li img {
+        display: inline-block;
+        width: 50px;
+        margin: 0.5rem;
     }
-    
-    footer div{
-    text-align: center;
+
+    footer div {
+        text-align: center;
     }
-    
-    footer ul{    
-    list-style-type: none;
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 0;
+
+    footer ul {
+        list-style-type: none;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 0;
     }
-    
-    .social{
-    display: inline-block;
+
+    .social {
+        display: inline-block;
     }
 
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { 
-    
-    
-    video{
-    width: 70%;
-    height: 100%;
-    margin: auto;
+@media (min-width: 1200px) {
+
+    video {
+        width: 70%;
+        height: 100%;
+        margin: auto;
         display: block;
-}
-    
-      nav{
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    width: 100%;
-    background-color:#210658;
-    height: 85px;
     }
 
-    
-     h1, h2, h3{
+    nav {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        background-color: #210658;
+        height: 85px;
+    }
+
+    h1, h2, h3 {
         padding: 0 0.2rem;
     }
-    
-       h1{
+
+    h1 {
         font-size: 1.5rem;
-        color: white; 
+        color: white;
         text-align: center;
         margin: 2rem 0.5rem 0.2rem 3rem;
     }
-    
-  .logo{
-    display: none;
+
+    .logo {
+        display: none;
     }
-    
-    
-    
+
     /* over */
-    
-      #over h2{
+    #over h2 {
         font-size: 1.5rem;
         text-align: center;
         margin-bottom: 2rem;
         width: 70%;
         display: block;
-         margin: auto;
+        margin: auto;
     }
-    
-     #over p{
-    text-align: center;
-    padding: 0 1rem; 
-    width: 60%;
-         margin: 0 auto;
+
+    #over p {
+        text-align: center;
+        padding: 0 1rem;
+        width: 60%;
+        margin: 0 auto;
     }
-    
-        /* programma */
-    
-     #programma p{
+
+    /* programma */
+    #programma p {
         text-align: left;
-        padding: 0 0.5rem; 
+        padding: 0 0.5rem;
     }
-    
-    #programma .nav .nav-pills .nav-justified{
+
+    #programma .nav .nav-pills .nav-justified {
         background-color: white;
         width: 100%;
     }
-    
-    #programma{
+
+    #programma {
         background-color: red;
     }
-    
-    #programma p{
-    color: white;
-    font-size: 1rem;
-    padding: 1rem;
-    text-align: left;
-    width: 60%;
-    margin:  0 auto;
+
+    #programma p {
+        color: white;
+        font-size: 1rem;
+        padding: 1rem;
+        text-align: left;
+        width: 60%;
+        margin: 0 auto;
     }
-    
-    #programma img{
+
+    #programma img {
         width: 40%;
         display: block;
         margin: auto;
     }
-    
-    #programma h2, #programma h3{
-        margin:0;
+
+    #programma h2, #programma h3 {
+        margin: 0;
         font-size: 1.3rem;
     }
-    
-    #programma h2, #programma ul{
-    background-color: white;
-    }
-    
-    #programma h2{
-    padding-bottom: 1rem;
-    padding-top: 2rem;
-    color: #84529C;
-    font-weight: bold;
-    font-size: 2rem;
-    text-align: center;
-    }
-    
-    
-    #programma .tab-pane h3:last-child{
-    padding: 1rem;
-    font-size: 1.3rem;
-    border: 3px solid white;
-    text-align: center;
-    margin: auto;
-    width: 33%;
-}
 
-    #programma .tab-pane h3:last-child:hover{
-    color: #B1CAE8;
-    background-color: white;
-    border: 3px solid white;
+    #programma h2, #programma ul {
+        background-color: white;
     }
-    
-    .nav .nav-pills .nav-justified{
+
+    #programma h2 {
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        color: #84529C;
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #programma .tab-pane h3:last-child {
+        padding: 1rem;
+        font-size: 1.3rem;
+        border: 3px solid white;
+        text-align: center;
+        margin: auto;
+        width: 33%;
+    }
+
+    #programma .tab-pane h3:last-child:hover {
+        color: #B1CAE8;
+        background-color: white;
+        border: 3px solid white;
+    }
+
+    .nav .nav-pills .nav-justified {
         width: 100%;
     }
-    
+
     .hvr-underline-from-center {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  position: relative;
-  overflow: hidden;
-        width: 30
-}
-    
-        /* tabs */
-    
-    #programma .nav-pills a{
-    background-color: white;
-    color: black;
-    width: auto;
-    cursor: pointer;
-    transition: 0.3s;
-    text-align: center;
-    transition: 0.3s;
-    font-size: 1rem;
-    font-weight: bold;
-    }  
-    
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px transparent;
+        position: relative;
+        overflow: hidden;
+        width: 30px;
+    }
+
+    /* tabs */
+    #programma .nav-pills a {
+        background-color: white;
+        color: black;
+        width: auto;
+        cursor: pointer;
+        transition: 0.3s;
+        text-align: center;
+        transition: 0.3s;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
     /* active tab */
     #programma .nav-pills li.active a {
-    border-bottom: 3px solid #84529C;
-    color: #84529C;
+        border-bottom: 3px solid #84529C;
+        color: #84529C;
     }
 
     /* hover tab */
     #programma .nav-pills a:hover {
-    color: #84529C;
+        color: #84529C;
     }
-    
-    
+
     /* waar waneer hoelaat */
-    
-    #info h2{
+    #info h2 {
         color: #84529C;
         text-align: center;
         font-size: 1.5rem;
         padding: 1.5rem;
     }
-    
-    #info p{
+
+    #info p {
         font-size: 1rem;
         text-align: center;
         margin: 1rem;
@@ -928,94 +880,90 @@ nav{
         margin: 0 auto;
         padding: 1rem;
     }
-    
-    #info p:nth-child(2){
+
+    #info p:nth-child(2) {
         padding-bottom: 0.5rem;
     }
-    
-    #info div div h3{
+
+    #info div div h3 {
         text-align: center;
-        background-color:#84529C;
+        background-color: #84529C;
         color: white;
-        width:15%;
+        width: 15%;
         font-size: 100%;
         margin: auto;
         border-radius: 15px;
         margin-top: 1.5rem;
         margin-bottom: 2rem;
     }
-    
-        #info div div h3:hover{
+
+    #info div div h3:hover {
         text-decoration: underline;
     }
-   
-    #info h3{
+
+    #info h3 {
         color: #84529C;
         text-align: center;
         font-size: 1.5rem;
     }
-    
-    #info ul li{
-    width: 25%;
-}
-    
-        /* Team */
-    
-    
+
+    #info ul li {
+        width: 25%;
+    }
+
+    /* Team */
     #team h1 {
         margin-top: 0;
         padding: 2rem;
         font-size: 2rem;
         text-align: center;
     }
-    
+
     /* footer */
-    
-    footer h3{
+    footer h3 {
         color: white;
         font-size: 1rem;
-        padding: 1.5rem 1rem; 
+        padding: 1.5rem 1rem;
         text-align: center;
         display: block;
         line-height: 200%;
     }
-    
-    footer small, footer small a{
+
+    footer small, footer small a {
         color: white;
         display: block;
         font-size: 0.8rem;
-        margin:auto;
+        margin: auto;
     }
-    
-    footer ul li img{
-    display: inline-block;
-    width: 50px; 
-    margin: 0.5rem;
+
+    footer ul li img {
+        display: inline-block;
+        width: 50px;
+        margin: 0.5rem;
     }
-    
-    footer div{
-    text-align: center;
+
+    footer div {
+        text-align: center;
     }
-    
-    footer ul{    
-    list-style-type: none;
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 0;
+
+    footer ul {
+        list-style-type: none;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 0;
     }
-    
-    .social{
-    display: inline-block;
+
+    .social {
+        display: inline-block;
     }
-    
-    nav{
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    width: 100%;
-}
-  
-    
+
+    nav {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+    }
+
 }
