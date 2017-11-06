@@ -16,11 +16,54 @@ html {
 }
 
 body {
-    background-color: #FFFAF2;
+    background-color: white;
+    color: #2d116d;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+}
+
+.video-container {
+    background-color: #341989;
+    text-align: center;
+    padding-bottom: 2%;
+    position: relative;
+    padding-left: 8%;
+}
+
+
+.brand {
+    text-align: left;
+    padding-left: 1rem;
+    color: white;
+}
+
+nav {
+    background-color: #210658;
+}
+
+.slogan {
+    font-size: 65%;
+    padding-left: 1.5rem;
+}
+
+.programmeur_in_dop {
+    font-family: 'Frutiger', sans-serif;
+    color: #2d116d;
+    padding-left: 20%;
+    text-align: left;
+}
+
+.onderzin {
+    padding-left: 50%;
+    text-align: left;
+}
+
+.omschrijving {
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 b {
@@ -45,22 +88,20 @@ a:hover {
 }
 
 #programma h2 {
-    border-top: 3px solid #84529C;
+    font-family: 'Frutiger', sans-serif;
+    border-top: 3px solid #2e1180;
+    color: #84529C;
 }
 
 #programma h3 {
-    color: white;
+    color: black;
     font-size: 1.8rem;
     text-align: center;
     padding: 2% 0;
 }
 
 #programma p {
-    color: white;
-}
-
-.nav .nav-pills .nav-justified ul li:first-child {
-    color: red;
+    color: black;
 }
 
 #programma .tab-pane h3:first-child {
@@ -324,7 +365,7 @@ nav ul li .text {
 
 nav ul li .fa {
     font-size: 2rem;
-    color: white;
+    color: #B1CAE8;
 }
 
 nav ul li:hover .text {
