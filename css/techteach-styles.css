@@ -25,18 +25,44 @@ body {
     overflow-x: hidden;
 }
 
+h1, h2, h3 {
+    padding: 0 0.2rem;
+}
+
 .video-container {
     background-color: #2f1886;
     text-align: center;
     padding-bottom: 2%;
+    padding-top: 6%;
     position: relative;
-    padding-left: 8%;
+    /*padding-left: 8%;*/
 }
 
-.brand {
-    text-align: left;
-    padding-left: 1rem;
-    color: white;
+#brand {
+    float: left;
+    padding-left: 2rem;
+    color: #B1CAE8;
+}
+
+#logo_small {
+    float: left;
+    width: 6%;
+    padding-left: 2%;
+}
+
+.flex-container-nav {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom:1%;
+    -webkit-flex-direction: row;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    justify-content: left;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 nav {
@@ -48,16 +74,19 @@ nav {
     padding-left: 1.5rem;
 }
 
-.programmeur_in_dop {
+#programmeur_in_dop {
     font-family: 'Frutiger', sans-serif;
     color: #2d116d;
     padding-left: 20%;
+    padding-top: 2%;
     text-align: left;
 }
 
 .onderzin {
-    padding-left: 50%;
-    text-align: left;
+    /*padding-left: 50%;*/
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 .omschrijving {
@@ -89,7 +118,6 @@ a:hover {
 }
 
 #programma h2 {
-    font-family: 'Frutiger', sans-serif;
     border-top: 3px solid #84529C;
     color: white;
     background-color: #B1CAE8;
@@ -133,6 +161,12 @@ a:hover {
     padding-bottom: 2rem;
 }
 
+#info h1 {
+    color: #2f1886;
+    text-align: center;
+    padding: 1.5rem;
+}
+
 #info b:first-child {
     color: #84529C;
     font-size: 1.1rem;
@@ -162,11 +196,9 @@ a:hover {
 }
 
 #team h1 {
-    padding: 0;
     margin: 30px 0 0 0;
-    border: 0;
     background-color: #B1CAE8;
-    width: 100%;
+    color: white;
 }
 
 #team h3 {
