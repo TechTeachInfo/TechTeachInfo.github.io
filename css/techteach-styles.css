@@ -30,18 +30,17 @@ h1, h2, h3 {
 }
 
 .video-container {
-    background-color: #210658;
+    background-color: #2f1886;
     text-align: center;
     padding-bottom: 2%;
     padding-top: 6%;
     position: relative;
-    /*padding-left: 8%;*/
 }
 
 #brand {
     float: left;
     padding-left: 2rem;
-    color: #B1CAE8;
+    color: #eae8ff;
 }
 
 #logo_small {
@@ -399,7 +398,7 @@ nav ul li .text {
 
 nav ul li .fa {
     font-size: 2rem;
-    color: white;
+    color: #eae8ff;
 }
 
 nav ul li:hover .text {

@@ -97,18 +97,13 @@
 
     #programma p {
         text-align: left;
-        padding: 0 0.5rem;
+        color: white;
+        font-size: 1rem;
+        padding: 1rem;
     }
 
     #programma .nav .nav-pills .nav-justified {
         background-color: white;
-    }
-
-    #programma p {
-        color: white;
-        font-size: 1rem;
-        padding: 1rem;
-        text-align: left;
     }
 
     #programma img {
