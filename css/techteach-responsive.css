@@ -46,6 +46,14 @@
         padding-top: 2%;
     }
 
+    #code_smal {
+        display: block;
+    }
+
+    #code_breed {
+        display: none;
+    }
+
     #instagram {
         display: none;
     }
@@ -253,11 +261,27 @@
         width: 80%;
         height: 100%;
     }
+    
+    #code_breed_img  {
+        padding-top: 25px;
+        width: 50%
+    }
 
-    .logo {
+    #logo_small {
+        display: block;
+    }
+
+    #logo_large {
+        display: none
+    }
+
+    #code_smal {
         display: none;
     }
 
+    #code_breed {
+        display: block;
+    }
     nav {
         position: absolute;
         z-index: 2;
@@ -467,12 +491,25 @@
         display: block;
     }
 
+    #code_breed_img  {
+        padding-top: 25px;
+        width: 50%
+    }
+
     #logo_small {
         display: block;
     }
 
     #logo_large {
         display: none
+    }
+
+    #code_smal {
+        display: none;
+    }
+
+    #code_breed {
+        display: block;
     }
 
     nav {
@@ -679,7 +716,8 @@
         display: block;
     }
 
-    img {
+    #code_breed_img  {
+        padding-top: 25px;
         width: 50%;
     }
 
@@ -697,6 +735,14 @@
 
     #logo_large {
         display: none
+    }
+
+    #code_smal {
+        display: none;
+    }
+
+    #code_breed {
+        display: block;
     }
 
     /* over */
