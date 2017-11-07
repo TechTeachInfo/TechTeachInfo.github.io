@@ -53,10 +53,6 @@
         margin: auto;
     }
 
-    #code_smal {
-        display: none;
-    }
-
     #code_breed {
         display: none;
     }
@@ -277,20 +273,12 @@
         display: none
     }
 
-    #code_smal {
-        display: none;
-    }
-
-    #code_breed {
-        display: block;
-    }
-
     nav {
         position: absolute;
         z-index: 2;
         top: 0;
         width: 100%;
-        height: 85px;
+        height: 75px;
     }
 
     /* over */
@@ -467,13 +455,6 @@
         -webkit-padding-start: 0;
     }
 
-    nav {
-        position: absolute;
-        z-index: 2;
-        top: 0;
-        width: 100%;
-    }
-
     nav div {
         text-align: left;
     }
@@ -506,20 +487,12 @@
         display: none
     }
 
-    #code_smal {
-        display: none;
-    }
-
-    #code_breed {
-        display: block;
-    }
-
     nav {
         position: absolute;
         z-index: 2;
         top: 0;
         width: 100%;
-        height: 85px;
+        height: 80px;
     }
 
     /* over */
@@ -728,7 +701,7 @@
         z-index: 2;
         top: 0;
         width: 100%;
-        height: 85px;
+        height: 90px;
     }
 
     #logo_small {
@@ -737,14 +710,6 @@
 
     #logo_large {
         display: none
-    }
-
-    #code_smal {
-        display: none;
-    }
-
-    #code_breed {
-        display: block;
     }
 
     /* over */
