@@ -39,15 +39,22 @@
         transition-timing-function: ease-out;
     }
 
-    .logo {
+    #brand {
+        display: none;
+    }
+
+    #logo_small {
+        display: none;
+    }
+
+    #logo_large {
         display: block;
-        margin: auto;
-        width: 30%;
-        padding-top: 2%;
+        width: 50%;
+        align-content: center;
     }
 
     #code_smal {
-        display: block;
+        display: none;
     }
 
     #code_breed {
@@ -261,9 +268,8 @@
         width: 80%;
         height: 100%;
     }
-    
-    #code_breed_img  {
-        padding-top: 25px;
+
+    #code_breed_img {
         width: 50%
     }
 
@@ -282,6 +288,7 @@
     #code_breed {
         display: block;
     }
+
     nav {
         position: absolute;
         z-index: 2;
@@ -491,9 +498,9 @@
         display: block;
     }
 
-    #code_breed_img  {
-        padding-top: 25px;
-        width: 50%
+    #code_breed_img {
+        padding-top: 40px;
+        width: 35%
     }
 
     #logo_small {
@@ -716,7 +723,7 @@
         display: block;
     }
 
-    #code_breed_img  {
+    #code_breed_img {
         padding-top: 25px;
         width: 50%;
     }
