@@ -90,11 +90,6 @@
     }
 
     /* programma */
-    #programma h2 {
-        font-size: 1.3rem;
-        text-align: center;
-    }
-
     #programma p {
         text-align: left;
         color: white;
@@ -204,7 +199,6 @@
     #team h1 {
         margin-top: 0;
         padding: 60px 0 0 0;
-        font-size: 2rem;
         text-align: center;
     }
 
@@ -262,7 +256,7 @@
 @media (min-width: 767px) {
 
     h1 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     video {
@@ -423,14 +417,13 @@
     #info h3 {
         color: #84529C;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 
     /* Team */
     #team h1 {
         margin-top: 0;
         padding: 1rem;
-        font-size: 2rem;
         text-align: center;
     }
 
@@ -489,7 +482,7 @@
 @media (min-width: 992px) {
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     video {
@@ -625,6 +618,7 @@
     }
 
     /* waar waneer hoelaat */
+
     #info p {
         font-size: 1rem;
         text-align: center;
@@ -664,8 +658,7 @@
     /* Team */
     #team h1 {
         margin-top: 0;
-        padding: 5px;
-        font-size: 2rem;
+        padding: 1rem;
         text-align: center;
     }
 
@@ -903,7 +896,6 @@
     #team h1 {
         margin-top: 0;
         padding: 2rem;
-        font-size: 2rem;
         text-align: center;
     }
 

@@ -116,10 +116,12 @@ a:hover {
     width: 100%;
 }
 
-#programma h2 {
+#programma h1 {
     border-top: 3px solid #84529C;
-    color: white;
-    background-color: #B1CAE8;
+    color: #84529C;
+    padding-top: 2%;
+    background-color: white;
+    text-align: center;
 }
 
 #programma h3 {
@@ -186,8 +188,7 @@ a:hover {
 }
 
 #info h3 {
-    margin-top: 80px;
-    font-size: 1.5rem;
+    margin-top: 8%;
 }
 
 #team div {
@@ -262,7 +263,6 @@ a:hover {
 
 #sponsers h1 {
     text-align: center;
-    font-size: 2rem;
     color: #84529C;
     font-weight: bold;
 }
