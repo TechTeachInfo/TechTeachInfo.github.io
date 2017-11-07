@@ -260,7 +260,7 @@ a:hover {
     padding: 5%;
 }
 
-#sponsers h2 {
+#sponsers h1 {
     text-align: center;
     font-size: 2rem;
     color: #84529C;
@@ -398,7 +398,7 @@ nav ul li .text {
 
 nav ul li .fa {
     font-size: 2rem;
-    color: #a686bb;
+    color: #B1CAE8;
 }
 
 nav ul li:hover .text {
