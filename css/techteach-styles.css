@@ -40,7 +40,7 @@ h1, h2, h3 {
 #brand {
     float: left;
     padding-left: 2rem;
-    color: #eae8ff;
+    color: #B1CAE8;
 }
 
 #logo_small {
@@ -398,7 +398,7 @@ nav ul li .text {
 
 nav ul li .fa {
     font-size: 2rem;
-    color: #eae8ff;
+    color: #a686bb;
 }
 
 nav ul li:hover .text {
