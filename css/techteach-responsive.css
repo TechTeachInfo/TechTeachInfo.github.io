@@ -483,7 +483,7 @@
 @media (min-width: 992px) {
 
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 
     video {
@@ -494,7 +494,7 @@
     }
 
     #code_breed_img {
-        padding-top: 40px;
+        padding-top: 60px;
         width: 50%
     }
 
@@ -719,7 +719,7 @@
     }
 
     #code_breed_img {
-        padding-top: 25px;
+        padding-top: 60px;
         width: 50%;
     }
 
