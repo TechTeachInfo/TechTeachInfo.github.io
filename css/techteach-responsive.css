@@ -4,7 +4,7 @@
 @media (max-width: 766px) {
 
     h1 {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     /*navigatie*/
@@ -50,7 +50,7 @@
     #logo_large {
         display: block;
         width: 50%;
-        align-content: center;
+        margin: auto;
     }
 
     #code_smal {
@@ -59,6 +59,12 @@
 
     #code_breed {
         display: none;
+    }
+
+    #programmeur_in_dop {
+        text-align: center;
+        padding-left: 0;
+        color: #2f1886;
     }
 
     #instagram {
@@ -71,7 +77,6 @@
 
     /*over*/
     #over h2 {
-        font-size: 1.3rem;
         display: block;
         text-align: center;
         margin: auto;
@@ -197,7 +202,7 @@
     #info h3 {
         color: #84529C;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     /* Team */
@@ -205,6 +210,7 @@
         margin-top: 0;
         padding: 60px 0 0 0;
         font-size: 2rem;
+        text-align: center;
     }
 
     /* sponsers */
