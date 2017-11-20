@@ -7,3 +7,4 @@ TechTeach is een non-profitorganisatie met als doel de diversiteit in de IT sect
 
 Yelitza Jansen *www.yellibeanz.nl*  
 Elena Fuentes Bongenaar
+Dries Schulten
