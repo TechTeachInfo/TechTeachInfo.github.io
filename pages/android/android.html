@@ -14,13 +14,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="../../css/pages-styles.css" rel="stylesheet" type="text/css">
+    <link href="../../css/nav-footer-styles.css" rel="stylesheet" type="text/css">
 </head>
 <body id="secondPage">
-<!--navigatiebar -->
-<!-- pagina vullende image/-->
+
 <nav>
+    <div class="flex-container-nav">
+        <div class="logo-fix">
+            <img src='../../images/Logo_small.png' alt="logo TechTeach" id="logo_small">
+        </div>
+        <h1 id="brand">TechTeach</h1>
+    </div>
+
     <ul>
-        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <li><a href="https://www.facebook.com/techteachdeventer"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <div class="text">Facebook</div>
         </li>
         <li><a href="https://www.instagram.com/techteachdeventer/"><i class="fa fa-instagram"
@@ -36,19 +43,6 @@
     </ul>
 </nav>
 <section>
-    <img src='../../images/Logo_TechTeach_no_background-01.png' alt="logo TechTeach" class="logoSecond" width="200">
-    <h1>IT | Get Together | Toegankelijk | Diversiteit </h1>
-    <div id="centerDiv">
-        <ul class="centerUL">
-            <li><a href="../../index.html" class="hvr-underline-from-center">Home <b>|</b></a></li>
-            <li><a href="../frontend/frontend.html" class="hvr-underline-from-center"> Frontend development <b>|</b></a>
-            </li>
-            <li><a href="../backend/backend.html" class="hvr-underline-from-center"> Backend development <b>|</b></a>
-            </li>
-            <li><span><a href="android.html" class="hvr-underline-from-center">Android development</a></span></li>
-        </ul>
-    </div>
-
     <h3>Android programma</h3>
     <p>In dit programma leer je de basis van Java en de Android SDK. We zullen gebruik maken van een Android telefoon om
         de app te bouwen en uit te proberen. Omdat het opzetten van een ontwikkelomgeving met alle tools nogal wat tijd
@@ -83,7 +77,23 @@
     </p>
 </section>
 <footer>
-    <small>Webdesign en illustraties: <a href="http://yellibeanz.nl/"> www.yellibeanz.nl</a></small>
+    <h3>Vragen over de avonden en/of de programma’s?<br> Stel je vraag aan één van de TechTeachers of mail naar:</h3>
+    <div><a href="mailto:contact@techteach.info">contact@techteach.info</a>
+    </div>
+    <div>
+        <ul>
+            <li class="social"><a href="https://www.facebook.com/techteachdeventer"><img
+                    src="../../images/social/Facebook_Icon.svg" class="hvr-bob"
+                    alt="Facebook TechTeach"></a></li>
+            <li class="social"><a href="https://www.instagram.com/techteachdeventer/"><img
+                    src="../../images/social/Instagram_icon.svg" class="hvr-bob" alt="Instagram TechTeach"></a></li>
+            <li class="social"><a href="https://www.linkedin.com/company/25079337/"><img
+                    src="../../images/social/Linkedin_icon.svg" class="hvr-bob" alt="Linkein TechTeach"></a></li>
+            <li class="social"><a href="mailto:contact@techteach.info"><img src="../../images/social/Email_icon-white.svg"
+                                                                            class="hvr-bob" alt="Email TechTeach"></a>
+            </li>
+        </ul>
+    </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
