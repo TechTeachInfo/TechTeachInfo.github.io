@@ -277,6 +277,10 @@ a:hover {
 
 footer {
     background-color: #210658;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 1rem;
 }
 
 footer img {
@@ -412,10 +416,6 @@ nav ul li:hover .text {
     margin-left: -60px;
 }
 
-#secondPage nav {
-    background-color: transparent;
-}
-
 /* hover underline */
 
 .hvr-underline-from-center {
@@ -449,125 +449,3 @@ nav ul li:hover .text {
     left: 0;
     right: 0;
 }
-
-/* secondpage */
-
-#secondPage h1 {
-    text-align: center;
-    color: black;
-}
-
-#secondPage .fa {
-    color: black;
-}
-
-#secondPage h3 {
-    color: #210658;
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 1rem;
-}
-
-#secondPage footer {
-    height: 50px;
-    bottom: 0;
-}
-
-footer div a {
-    text-align: center;
-    font-size: 1rem;
-}
-
-footer small {
-    color: white;
-    display: block;
-    font-size: 0.8rem;
-    margin: auto;
-}
-
-footer small {
-    color: white;
-    display: block;
-    font-size: 0.8rem;
-    margin: auto;
-    width: 100%;
-    padding: 1rem;
-    text-align: center;
-}
-
-#secondPage footer small {
-    color: white;
-    display: block;
-    font-size: 0.8rem;
-    margin: auto;
-    width: 100%;
-    padding: 1rem;
-    text-align: center;
-}
-
-.logoSecond {
-    display: block;
-    margin: 40px auto;
-}
-
-div#centerDiv {
-    width: 100%;
-    text-align: center;
-}
-
-ul.centerUL {
-    margin: 3rem auto;
-    line-height: 1.4;
-    padding-left: 0;
-}
-
-.centerUL li {
-    display: inline;
-    text-align: center;
-}
-
-.centerUL li a {
-    color: black;
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    font-weight: bold;
-}
-
-.centerUL li span a {
-    color: #84529C;
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    font-weight: bolder;
-    border-bottom: 2px solid #84529C;
-}
-
-#links a {
-    text-align: center;
-    display: block;
-    margin: 0.5rem auto;
-    color: #84529C;
-    font-size: 1rem;
-    font-weight: bold;
-}
-
-#links a:hover {
-    text-decoration: underline;
-}
-
-#links p {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-}
-
-#links p:last-child {
-    padding-bottom: 2rem;
-
-}
-
-
-
-
-
-
- 
