@@ -150,6 +150,32 @@ video {
 }
 /* einde code image*/
 
+/* Links */
+a:link {
+    color: #f7f7f7;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #cfcfcf;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cfcfcf;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #808080;
+    background-color: transparent;
+    text-decoration: underline;
+}
+/* Einde Links */
+
 /* Responsive */
 
 @media (min-width: 767px) {
