@@ -93,14 +93,25 @@ video {
 
 /* Einde Header met TT video*/
 
+#android_programma_titel {
+    padding-bottom: 5%;
+}
+
 .light_blue {
     background-color: #B1CAE8;
 }
 
-.programma_start {
+.dotted {
     padding: 2%;
     padding-bottom: 5%;
     border-style: dotted;
+}
+
+.dotted-top{
+    padding: 2%;
+    padding-bottom: 5%;
+    border-style: dotted;
+    border-bottom: none;
 }
 
 .tussenkop {
@@ -123,6 +134,21 @@ video {
     color: white;
     padding: 5%;
 }
+
+#connect {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+/* code image */
+#code_breed_img {
+    padding-top: 60px;
+    width: 50%
+}
+/* einde code image*/
 
 /* Responsive */
 
