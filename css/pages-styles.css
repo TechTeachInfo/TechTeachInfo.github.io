@@ -33,7 +33,7 @@ nav div {
 }
 
 .padding {
-    padding:4%
+    padding: 4%
 }
 
 /* footer */
@@ -74,21 +74,23 @@ footer ul {
     -webkit-margin-end: 0px;
     -webkit-padding-start: 0;
 }
+
 /* Einde footer */
 
 /* Header met TT video*/
 .image-container {
     background-color: #2d067d;
     padding-bottom: 2%;
-    padding-top:2%
+    padding-top: 2%
 }
 
-video{
+video {
     width: 50%;
     height: 100%;
     margin: auto;
     display: block;
 }
+
 /* Einde Header met TT video*/
 
 .light_blue {
@@ -97,13 +99,29 @@ video{
 
 .programma_start {
     padding: 2%;
-    padding-bottom:5%;
+    padding-bottom: 5%;
     border-style: dotted;
 }
 
-.programma_deel {
-    border-top: 3px solid #84529C;
-    padding: 2%
+.tussenkop {
+    font-family: 'Frutiger', sans-serif;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.slogan {
+    text-align: right;
+    color: #210658;
+}
+
+#introtext {
+    font-size: larger;
+}
+
+#programma_inhoud {
+    background-color: #84529C;
+    color: white;
+    padding: 5%;
 }
 
 /* Responsive */
