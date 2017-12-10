@@ -28,9 +28,17 @@ h1, h2, h3 {
     padding: 0 0.2rem;
 }
 
+/* nav */
 nav div {
     text-align: left;
 }
+
+#brand a:link {
+    color: #B1CAE8;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* nav */
 
 .padding {
     padding: 4%
@@ -190,6 +198,10 @@ a:active {
         width: 100%;
         height: 75px;
     }
+
+    h1 {
+        font-size: 1.5rem;
+    }
 }
 
 @media (min-width: 992px) {
@@ -200,6 +212,10 @@ a:active {
         width: 100%;
         height: 80px;
     }
+
+    h1 {
+        font-size: 1.7rem;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -209,6 +225,10 @@ a:active {
         top: 0;
         width: 100%;
         height: 90px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
     }
 
     /* footer */
