@@ -38,6 +38,11 @@ nav div {
     background-color: transparent;
     text-decoration: none;
 }
+
+#brand a:visited {
+    color: #B1CAE8;
+}
+
 /* nav */
 
 .padding {
@@ -49,7 +54,8 @@ nav div {
 }
 
 .padding-top {
-    padding-top: 10%; !important;
+    padding-top: 10%;
+!important;
 }
 
 /* footer */
@@ -123,7 +129,7 @@ video {
     border-style: dotted;
 }
 
-.dotted-top{
+.dotted-top {
     padding: 2%;
     padding-bottom: 5%;
     border-style: dotted;
@@ -164,6 +170,7 @@ video {
     padding-top: 60px;
     width: 50%
 }
+
 /* einde code image*/
 
 /* Links */
@@ -190,6 +197,7 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+
 /* Einde Links */
 
 /* Responsive */
