@@ -82,14 +82,6 @@ a:hover {
     padding-bottom: 2.5rem;
 }
 
-#programma .container {
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: 0;
-    margin-left: 0;
-    width: 100%;
-}
-
 #programma h1 {
     border-top: 3px solid #84529C;
     color: #84529C;

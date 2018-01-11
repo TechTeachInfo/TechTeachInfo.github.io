@@ -8,7 +8,7 @@
     }
 
     /*navigatie*/
-    ul li {
+    #hoofdNavBar ul li {
         display: none;
     }
 
@@ -93,7 +93,7 @@
         padding: 1rem;
     }
 
-    #programma .nav .nav-pills .nav-justified {
+    #programma .nav .nav-pills {
         background-color: white;
     }
 
@@ -304,7 +304,7 @@
         padding: 0 0.5rem;
     }
 
-    #programma .nav .nav-pills .nav-justified {
+    #programma .nav .nav-pills {
         background-color: white;
     }
 
@@ -516,7 +516,7 @@
         padding: 0 0.5rem;
     }
 
-    #programma .nav .nav-pills .nav-justified {
+    #programma .nav .nav-pills {
         background-color: white;
     }
 
@@ -726,7 +726,7 @@
         padding: 0 0.5rem;
     }
 
-    #programma .nav .nav-pills .nav-justified {
+    #programma .nav .nav-pills {
         background-color: white;
         width: 100%;
     }
@@ -779,7 +779,7 @@
         border: 3px solid white;
     }
 
-    .nav .nav-pills .nav-justified {
+    .nav .nav-pills {
         width: 100%;
     }
 
