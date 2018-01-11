@@ -48,6 +48,10 @@ nav div {
     padding-bottom: 3%;
 }
 
+.padding-top {
+    padding-top: 10%; !important;
+}
+
 /* footer */
 .social {
     display: inline-block;
