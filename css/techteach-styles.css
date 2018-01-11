@@ -232,3 +232,12 @@ a:hover {
     color: #84529C;
     font-weight: bold;
 }
+
+/*Feiten en Cijfers*/
+#cijfers p {
+    font-size: 70%;
+}
+
+#cijfers .container {
+    padding-bottom: 25px;
+}
