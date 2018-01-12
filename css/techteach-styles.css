@@ -234,10 +234,46 @@ a:hover {
 }
 
 /*Feiten en Cijfers*/
+
+#cijfers {
+    background-image: url("../images/grey.png");
+}
+
 #cijfers p {
     font-size: 70%;
 }
 
 #cijfers .container {
-    padding-bottom: 25px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#cijfers a {
+    color: #2d116d;
+    text-decoration: none;
+}
+
+.code-red-background {
+    background-color: #e76860;
+    color: white;
+}
+
+.code-purple-background {
+    background-color: #9d81b5;
+    color: white;
+}
+
+.code-green-background {
+    background-color: #54c0b6;
+    color: white;
+}
+
+.code-orange-background {
+    background-color: #ecad5b;
+    color: white;
+}
+
+.code-grey-background {
+    background-color: #97999d;
+    color: white;
 }
