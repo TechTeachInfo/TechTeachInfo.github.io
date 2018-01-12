@@ -200,7 +200,7 @@ a:hover {
 
 .round-img {
     width: 200px;
-    margin: 3rem 2rem 0 2rem;
+    margin: 1rem 1rem 1rem 1rem;
     border-radius: 50%;
     -webkit-box-shadow: 4px 6px 41px -10px rgba(0, 0, 0, 0.63);
     -moz-box-shadow: 4px 6px 41px -10px rgba(0, 0, 0, 0.63);
