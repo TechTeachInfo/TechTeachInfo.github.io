@@ -38,6 +38,10 @@ h1, h2, h3 {
     position: relative;
 }
 
+.background-image {
+    background-image: url("../images/grey.png");
+}
+
 .slogan {
     font-size: 65%;
     padding-left: 1.5rem;
@@ -194,7 +198,7 @@ a:hover {
     margin: auto;
 }
 
-#team img {
+.round-img {
     width: 200px;
     margin: 3rem 2rem 0 2rem;
     border-radius: 50%;
@@ -235,10 +239,6 @@ a:hover {
 
 /*Feiten en Cijfers*/
 
-#cijfers {
-    background-image: url("../images/grey.png");
-}
-
 #cijfers p {
     font-size: 70%;
 }
@@ -277,3 +277,23 @@ a:hover {
     background-color: #97999d;
     color: white;
 }
+
+/* Testimonials */
+.carousel-indicators li {
+    background-color: #B1CAE8;
+}
+
+.carousel-indicators .active {
+    background-color: #84529C;
+}
+
+.carousel-indicators {
+    top: 50px;
+}
+
+.carousel {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Einde Testimonials */
