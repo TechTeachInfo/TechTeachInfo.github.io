@@ -3,7 +3,7 @@
 /* Small devices (landscape phones, 766px and up)*/
 @media (max-width: 766px) {
 
-    h1, h3 {
+    h1, h3, h4 {
         font-size: 1.4rem;
     }
 
@@ -251,7 +251,7 @@
 /* Medium devices (tablets, 767px and up)*/
 @media (min-width: 767px) {
 
-    h1, h3 {
+    h1, h3, h4 {
         font-size: 1.5rem;
     }
 

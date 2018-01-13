@@ -87,7 +87,6 @@ a:hover {
 }
 
 #programma h1 {
-    border-top: 3px solid #84529C;
     color: #84529C;
     padding-top: 2%;
     background-color: white;
@@ -123,13 +122,13 @@ a:hover {
     border: 3px solid white;
 }
 
+#over {
+    border-bottom: 3px solid #84529C;
+}
+
 #over p:first-child {
     padding-top: 2rem;
     color: red;
-}
-
-#over p:last-child {
-    padding-bottom: 2rem;
 }
 
 #info h1 {
@@ -244,8 +243,7 @@ a:hover {
 }
 
 #cijfers .container {
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding: 5%;
 }
 
 #cijfers a {
@@ -287,15 +285,23 @@ a:hover {
     background-color: #2f1886;
 }
 
-.carousel-indicators {
-    top: 50px;
+#testimonials .carousel-indicators {
+    top: 0;
     margin-right: 0;
     margin-left: 0;
 }
 
-.carousel {
-    padding-top: 10%;
-    padding-bottom: 10%;
+.carousel-inner {
+    padding-top: 5%;
+}
+
+#testimonials {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#testimonials img {
+    margin: 2% 0 2% 0;
 }
 
 /* Einde Testimonials */
