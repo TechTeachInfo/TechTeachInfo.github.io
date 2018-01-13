@@ -251,29 +251,19 @@ a:hover {
     text-decoration: none;
 }
 
-.code-red-background {
-    background-color: #e76860;
-    color: white;
+.card {
+    border-color: #84529C;
+}
+.card h1 {
+    padding-top: 3%;
 }
 
-.code-purple-background {
-    background-color: #9d81b5;
-    color: white;
+.card {
+    margin: 2%;
 }
 
-.code-green-background {
-    background-color: #54c0b6;
-    color: white;
-}
-
-.code-orange-background {
-    background-color: #ecad5b;
-    color: white;
-}
-
-.code-grey-background {
-    background-color: #97999d;
-    color: white;
+#cijfers {
+    border-bottom: 3px dotted #84529C;
 }
 
 /* Testimonials */
