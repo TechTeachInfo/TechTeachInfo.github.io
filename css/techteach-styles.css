@@ -38,18 +38,23 @@ h1, h2, h3 {
     position: relative;
 }
 
-.background-image {
-    background-image: url("../images/grey.png");
+b {
+    color: #84529C;
 }
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Begin */
 
 .slogan {
     font-size: 65%;
     padding-left: 1.5rem;
 }
 
-.start_programma {
-    padding-top: 10px;
-    padding-bottom: 5px;
+.background-image {
+    background-image: url("../images/grey.png");
 }
 
 #programmeur_in_dop {
@@ -68,17 +73,55 @@ h1, h2, h3 {
 
 #omschrijving {
     text-align: left;
-    padding-left: 20%;
-    padding-right: 20%;
     padding-bottom: 2%;
 }
 
-b {
-    color: #84529C;
+#over {
+    border-bottom: 3px solid #84529C;
 }
 
-a:hover {
-    text-decoration: none;
+#over p:first-child {
+    padding-top: 2rem;
+    color: red;
+}
+
+/* Testimonials */
+.carousel-indicators li {
+    background-color: #B1CAE8;
+}
+
+.carousel-indicators .active {
+    background-color: #2f1886;
+}
+
+#testimonials .carousel-indicators {
+    top: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.carousel-inner {
+    padding-top: 5%;
+}
+
+#testimonials {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#testimonials img {
+    margin: 2% 0 2% 0;
+}
+
+.testimonial-titel {
+    padding-top: 5%;
+}
+
+/* Programma's*/
+
+.start_programma {
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 #programma .tab-content {
@@ -122,14 +165,7 @@ a:hover {
     border: 3px solid white;
 }
 
-#over {
-    border-bottom: 3px solid #84529C;
-}
-
-#over p:first-child {
-    padding-top: 2rem;
-    color: red;
-}
+/* Wat waar en hoe laat*/
 
 #info h1 {
     color: #2f1886;
@@ -160,6 +196,7 @@ a:hover {
     margin-top: 8%;
 }
 
+/* Team */
 #team div {
     border: 0;
 }
@@ -206,7 +243,7 @@ a:hover {
     box-shadow: 4px 6px 41px -10px rgba(0, 0, 0, 0.63);
 }
 
-/* sponsers */
+/* Sponsers */
 
 #sponsers p {
     font-family: 'Courgette', cursive;
@@ -254,6 +291,7 @@ a:hover {
 .card {
     border-color: #84529C;
 }
+
 .card h1 {
     padding-top: 3%;
 }
@@ -265,33 +303,3 @@ a:hover {
 #cijfers {
     border-bottom: 3px dotted #84529C;
 }
-
-/* Testimonials */
-.carousel-indicators li {
-    background-color: #B1CAE8;
-}
-
-.carousel-indicators .active {
-    background-color: #2f1886;
-}
-
-#testimonials .carousel-indicators {
-    top: 0;
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.carousel-inner {
-    padding-top: 5%;
-}
-
-#testimonials {
-    padding-top: 2%;
-    padding-bottom: 5%;
-}
-
-#testimonials img {
-    margin: 2% 0 2% 0;
-}
-
-/* Einde Testimonials */
