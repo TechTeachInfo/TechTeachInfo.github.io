@@ -165,6 +165,44 @@ a:hover {
     border: 3px solid white;
 }
 
+/*Feiten en Cijfers*/
+
+#cijfers p {
+    font-size: 70%;
+}
+
+#cijfers .container {
+    padding-bottom: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#cijfers a {
+    color: #2d116d;
+    text-decoration: none;
+}
+
+#cijfers h1 {
+    padding-top: 4%;
+}
+
+.card {
+    border-color: #84529C;
+}
+
+.card h1 {
+    padding-top: 3%;
+}
+
+.card {
+    margin: 2%;
+}
+
+#cijfers {
+    border-bottom: 3px dotted #84529C;
+}
+
+
 /* Wat waar en hoe laat*/
 
 #info h1 {
@@ -271,35 +309,4 @@ a:hover {
     text-align: center;
     color: #84529C;
     font-weight: bold;
-}
-
-/*Feiten en Cijfers*/
-
-#cijfers p {
-    font-size: 70%;
-}
-
-#cijfers .container {
-    padding: 5%;
-}
-
-#cijfers a {
-    color: #2d116d;
-    text-decoration: none;
-}
-
-.card {
-    border-color: #84529C;
-}
-
-.card h1 {
-    padding-top: 3%;
-}
-
-.card {
-    margin: 2%;
-}
-
-#cijfers {
-    border-bottom: 3px dotted #84529C;
 }
