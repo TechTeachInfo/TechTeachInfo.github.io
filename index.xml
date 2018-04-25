@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ben jij een programmeur in de dop? on TechTeach</title>
+    <link>https://techteach.info/</link>
+    <description>Recent content in Ben jij een programmeur in de dop? on TechTeach</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://techteach.info/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android app development</title>
+      <link>https://techteach.info/tracks/android/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techteach.info/tracks/android/</guid>
+      <description>Toestel of Simulator Om het Android programma te volgen is het een te raden een echte Android telefoon te hebben. De telefoon moet Android versie 4.1 of hoger draaien, dit kun je vinden in de instellingen van het toestel. Ga hiervoor naar Instellingen en klik dan op &amp;lsquo;Over deze telefoon&amp;rsquo;. Daarnaast heb je een USB kabel nodig om de telefoon met de laptop te kunnen verbinden voor het testen van je app.</description>
+    </item>
+    
+    <item>
+      <title>Backend web development</title>
+      <link>https://techteach.info/tracks/backend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techteach.info/tracks/backend/</guid>
+      <description>Java met BlueJ We zullen gebruik maken van de BlueJ ontwikkelomgeving om Java te leren. BlueJ is een text editor en bevat alle benodigdheden om Java code te schrijven, te compileren en uit te voeren. BlueJ kun je hier downloaden.
+We gaan gebruiken maken van het digitale boek Java with BlueJ. Dit boek bestat uit twee delen, het eerste deel neemt je mee door de verschillende aspecten van het programmeren in Java.</description>
+    </item>
+    
+    <item>
+      <title>Frontend web development</title>
+      <link>https://techteach.info/tracks/frontend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techteach.info/tracks/frontend/</guid>
+      <description>Voorbereiding Voor dit programma heb je een tekstverwerker nodig. Microsoft Word is niet erg geschikt voor dit soort doeleinden en er bestaan tekstverwerkers die juist visuele ondersteuning geven bij het programmeren. Wij raden aan om Sublime Text te gebruiken; deze tekstverwerker is gratis en geeft je wat extra hulp bij het maken van HTML, CSS en JavaScript zowel visueel als bij het schrijven zelf. Sublime kun je hier downloaden.</description>
+    </item>
+    
+    <item>
+      <title>Na een carrière in de zorg passie voor software testen ontdekt</title>
+      <link>https://techteach.info/testimonials/fransje/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techteach.info/testimonials/fransje/</guid>
+      <description>Na jarenlang in de zorg te hebben gewerkt ontdekte Fransje software testen. Het testen van een programma of app is erg belangrijk om de kwaliteit van de software te bewaken. Ze heeft zelf enige (gratis online) cursussen programmeren gedaan om ook geautomatiseerd testen op te pakken. Verder heeft ze ervaring opgedaan bij 2 startups. Wil je meer weten over testen, trek haar dan aan de mouw bij een TT avond!</description>
+    </item>
+    
+    <item>
+      <title>Van een studie archeologie naar front-end developer</title>
+      <link>https://techteach.info/testimonials/yelitza/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techteach.info/testimonials/yelitza/</guid>
+      <description>Yelitza is opgeleid archeoloog maar heeft daarnaast altijd interesse gehad in tekenen en design. Door zelfstudie heeft ze een introductie gekregen tot front-end development. Dit beviel goed, dus heeft ze uiteindelijk een 1-jarige opleiding (op zaterdag) tot front-end developer gedaan. Nu is ze Junior front end developer bij Moxio!</description>
+    </item>
+    
+    <item>
+      <title>Wanneer, waar en hoe laat?</title>
+      <link>https://techteach.info/events/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techteach.info/events/events/</guid>
+      <description>Wil je vrijblijvend een TechTeach avond bijwonen? Check onderstaande data en kom leren programmeren. Het enige wat je hoeft mee te brengen is je laptop. Laat je inspireren door onze TechTeachers en ontdek jouw verborgen talenten.
+Aanmelden kan via onze facebookpagina maar is niet verplicht. En als je er dan toch bent: like onze pagina en blijf op de hoogte van TechTeach nieuwtjes!</description>
+    </item>
+    
+  </channel>
+</rss>

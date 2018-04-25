@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EN! Ben jij een programmeur in de dop? on TechTeach</title>
+    <link>https://techteach.info/en/</link>
+    <description>Recent content in EN! Ben jij een programmeur in de dop? on TechTeach</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://techteach.info/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>When, where and what times?</title>
+      <link>https://techteach.info/en/events/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techteach.info/en/events/events/</guid>
+      <description>Wil je vrijblijvend een TechTeach avond bijwonen? Check onderstaande data en kom leren programmeren. Het enige wat je hoeft mee te brengen is je laptop. Laat je inspireren door onze TechTeachers en ontdek jouw verborgen talenten.
+Aanmelden kan via onze facebookpagina maar is niet verplicht. En als je er dan toch bent: like onze pagina en blijf op de hoogte van TechTeach nieuwtjes!</description>
+    </item>
+    
+  </channel>
+</rss>

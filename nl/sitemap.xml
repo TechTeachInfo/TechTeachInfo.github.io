@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://techteach.info/tracks/android/</loc>
+  </url>
+  
+  <url>
+    <loc>https://techteach.info/tracks/backend/</loc>
+  </url>
+  
+  <url>
+    <loc>https://techteach.info/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://techteach.info/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://techteach.info/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://techteach.info/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://techteach.info/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://techteach.info/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://techteach.info/events/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://techteach.info/en/events/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://techteach.info/events/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://techteach.info/tracks/frontend/</loc>
+  </url>
+  
+  <url>
+    <loc>https://techteach.info/testimonials/fransje/</loc>
+  </url>
+  
+  <url>
+    <loc>https://techteach.info/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://techteach.info/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://techteach.info/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://techteach.info/testimonials/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techteach.info/tracks/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techteach.info/testimonials/yelitza/</loc>
+  </url>
+  
+  <url>
+    <loc>https://techteach.info/events/events/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://techteach.info/en/events/events/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://techteach.info/events/events/"
+                />
+  </url>
+  
+</urlset>

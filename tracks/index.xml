@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tracks on TechTeach</title>
+    <link>https://techteach.info/tracks/</link>
+    <description>Recent content in Tracks on TechTeach</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://techteach.info/tracks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android app development</title>
+      <link>https://techteach.info/tracks/android/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techteach.info/tracks/android/</guid>
+      <description>Toestel of Simulator Om het Android programma te volgen is het een te raden een echte Android telefoon te hebben. De telefoon moet Android versie 4.1 of hoger draaien, dit kun je vinden in de instellingen van het toestel. Ga hiervoor naar Instellingen en klik dan op &amp;lsquo;Over deze telefoon&amp;rsquo;. Daarnaast heb je een USB kabel nodig om de telefoon met de laptop te kunnen verbinden voor het testen van je app.</description>
+    </item>
+    
+    <item>
+      <title>Backend web development</title>
+      <link>https://techteach.info/tracks/backend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techteach.info/tracks/backend/</guid>
+      <description>Java met BlueJ We zullen gebruik maken van de BlueJ ontwikkelomgeving om Java te leren. BlueJ is een text editor en bevat alle benodigdheden om Java code te schrijven, te compileren en uit te voeren. BlueJ kun je hier downloaden.
+We gaan gebruiken maken van het digitale boek Java with BlueJ. Dit boek bestat uit twee delen, het eerste deel neemt je mee door de verschillende aspecten van het programmeren in Java.</description>
+    </item>
+    
+    <item>
+      <title>Frontend web development</title>
+      <link>https://techteach.info/tracks/frontend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techteach.info/tracks/frontend/</guid>
+      <description>Voorbereiding Voor dit programma heb je een tekstverwerker nodig. Microsoft Word is niet erg geschikt voor dit soort doeleinden en er bestaan tekstverwerkers die juist visuele ondersteuning geven bij het programmeren. Wij raden aan om Sublime Text te gebruiken; deze tekstverwerker is gratis en geeft je wat extra hulp bij het maken van HTML, CSS en JavaScript zowel visueel als bij het schrijven zelf. Sublime kun je hier downloaden.</description>
+    </item>
+    
+  </channel>
+</rss>

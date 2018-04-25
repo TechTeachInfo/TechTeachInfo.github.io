@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testimonials on TechTeach</title>
+    <link>https://techteach.info/testimonials/</link>
+    <description>Recent content in Testimonials on TechTeach</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://techteach.info/testimonials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Na een carrière in de zorg passie voor software testen ontdekt</title>
+      <link>https://techteach.info/testimonials/fransje/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techteach.info/testimonials/fransje/</guid>
+      <description>Na jarenlang in de zorg te hebben gewerkt ontdekte Fransje software testen. Het testen van een programma of app is erg belangrijk om de kwaliteit van de software te bewaken. Ze heeft zelf enige (gratis online) cursussen programmeren gedaan om ook geautomatiseerd testen op te pakken. Verder heeft ze ervaring opgedaan bij 2 startups. Wil je meer weten over testen, trek haar dan aan de mouw bij een TT avond!</description>
+    </item>
+    
+    <item>
+      <title>Van een studie archeologie naar front-end developer</title>
+      <link>https://techteach.info/testimonials/yelitza/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techteach.info/testimonials/yelitza/</guid>
+      <description>Yelitza is opgeleid archeoloog maar heeft daarnaast altijd interesse gehad in tekenen en design. Door zelfstudie heeft ze een introductie gekregen tot front-end development. Dit beviel goed, dus heeft ze uiteindelijk een 1-jarige opleiding (op zaterdag) tot front-end developer gedaan. Nu is ze Junior front end developer bij Moxio!</description>
+    </item>
+    
+  </channel>
+</rss>
