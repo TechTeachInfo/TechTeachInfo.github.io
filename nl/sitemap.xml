@@ -63,6 +63,10 @@
   </url>
   
   <url>
+    <loc>https://techteach.info/tracks/python/</loc>
+  </url>
+  
+  <url>
     <loc>https://techteach.info/tags/</loc>
     <priority>0</priority>
     <xhtml:link
